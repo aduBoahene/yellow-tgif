@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'MTN-Bold';
+    src: url("Font/MTNBrighterSans-Bold.ttf") format('truetype'),
+        url("Font/MTNBrighterSans-Bold.otf") format('otf'),
+        url("Font/MTNBrighterSans-Bold.woff") format('woff'),
+        url("Font/MTNBrighterSans-Bold.woff2") format('woff2'),
+        url('Font/MTNBrighterSans-Bold.eot') format('embedded-opentype');
+    /* EOT file for IE */
+}
+
+@font-face {
+    font-family: 'MTN-Regular';
+    src: url("Font/MTNBrighterSans-Regular.ttf") format('truetype'),
+        url("Font/MTNBrighterSans-Regular.otf") format('otf'),
+        url("Font/MTNBrighterSans-Regular.woff") format('woff'),
+        url("Font/MTNBrighterSans-Regular.woff2") format('woff2'),
+        url('Font/MTNBrighterSans-Regular.eot') format('embedded-opentype');
+    /* EOT file for IE */
+}
+
+.imo {
+    margin-top: 50px;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav {
+    height: 60px;
+}
+
+.mobileSmall {
+    margin-top: 60px !important;
+}
+
+.bg-light {
+    background-color: #ffcb09 !important;
+}
+
+.catTitle {
+    font-family: 'MTN-Regular'
+}
+
+#oval {
+    width: 1000px;
+    height: 550px;
+    background: white;
+    -moz-border-radius: 500px / 2250px;
+    -webkit-border-radius: 500px / 2250px;
+    border-radius: 50%;
+    margin-top: -580px;
+    margin-left: 900px;
+    position: relative;
+}
+
+#id {
+    position: absolute;
+}
+
+.fixa {
+    position: absolute;
+    z-index: 10;
+
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #ffcb09 !important;
+}
+
+.content {
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+}
+
+.phone-card {
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 350px;
+}
+
+.discount-card {
+    margin: 10px;
+    padding: 2px;
+}
+
+.img-size {
+    width: 200px;
+    height: 200px;
+}
+
+.phone-image {
+    width: 170px;
+    height: 200px;
+}
+
+.discount {
+    font-size: 22px;
+    color: #ffcb09;
+    font-weight: bold;
+}
+
+.order {
+    font-size: 18px;
+    color: blue;
+    font-weight: bold;
+}
+
+.menu-item-rounded {
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: #ffcb09;
+}
+
+.login-rounded {
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.modal-button {
+    border: 3px solid #ffcb09;
+    border-radius: 20px;
+    background-color: #ffcb09;
+}
+
+.modal-image {
+    width: 300px;
+    height: 300px;
+}
+
+#ab {
+    z-index: 0;
+}
+
+.carouselText {
+    position: absolute;
+    z-index: 999999;
+    color: #000;
+    margin-top: -400px;
+    margin-left: 1000px;
+}
+
+.footerBack {
+    background-color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+.ad {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.footerMenuItems {
+    padding-right: 5px;
+    margin: 0;
+}
+
+.footerListStyle {
+    list-style: none;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 60px;
+    position: relative;
+    max-width: 1230px;
+}
+
+.thumbnail {
+    margin: 0 15px;
+}
+
+.customNavigation {
+    transform: translateY(-50%);
+    top: calc(50% - 37px);
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.customNavigation>span {
+    transform: translateY(-50%);
+    top: 50%;
+    position: absolute;
+}
+
+.pager-left {
+    left: calc(0% + 15px);
+}
+
+.pager-right {
+    right: calc(0% + 15px);
+}
+
+.next,
+.prev {
+    font-size: 28px;
+    color: #ccc;
+}
+
+.catHeading {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.prodImageHeight {
+    padding: 15px;
+
+}
+
+.footColor {
+    color: #fff;
+}
