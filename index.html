@@ -7,20 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!--Owl carousel script-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="./external-files/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="slick/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./external-files/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="./external-files/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="lonStarStyle.css">
 
     <title>TGIF Portal</title>
 
     <script>
-        function changeText(){
+        function changeText() {
             //document.getElementById("text-col").innerHTML("Hello world");
             //$("#text-col").html("Hello World");
             //alert("Thank you");
@@ -140,7 +143,7 @@
             <!-- phone cards -->
             <div class="col-md-4">
                 <div class="card phone-card">
-                    <img src="images/shops/bamas1.png" />
+                    <img src="images/shops/b1.png" style="height:250px"/>
                     <div class="row" style="padding-left:5px">
                         <div class="col-md-12">
                             <i class="fa fa-cart-plus" aria-hidden="true"></i>
@@ -165,7 +168,7 @@
 
             <div class="col-md-4">
                 <div class="card phone-card">
-                    <img src="images/shops/bake.jpg" />
+                    <img src="images/shops/newBake.png" /><br />
                     <div class="row" style="padding-left:5px">
                         <div class="col-md-12">
                             <i class="fa fa-cart-plus" aria-hidden="true"></i>
@@ -188,7 +191,7 @@
 
             <div class="col-md-4">
                 <div class="card phone-card">
-                    <img src="images/shops/wwww.png" />
+                    <img src="images/shops/queens logo png.png" style="height:250px"/>
                     <div class="row" style="padding-left:5px">
                         <div class="col-md-12">
                             <i class="fa fa-cart-plus" aria-hidden="true"></i>
@@ -248,7 +251,7 @@
 
             <div class="col-md-4">
                 <div class="card phone-card">
-                    <img src="images/shops/stv-cinemas-logo-small.png" />
+                    <img src="images/shops/silverbird.jpg" />
                     <div class="row" style="padding-left:5px">
                         <div class="col-md-12">
                             <i class="fa fa-cart-plus" aria-hidden="true"></i>
@@ -316,101 +319,20 @@
     </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script> -->
+    <script src="./external-files/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script> -->
+    <script src="./external-files/popper.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> -->
+
+    <script src="./external-files/bootstrap.min.js"></script>
 
 
 
     <script type="text/javascript" src="slick/slick/slick.min.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            $('.owl-carousel').slick({
-                lazyLoad: 'ondemand',
-                infinite: true,
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                arrows: true,
-
-                dots: true,
-                infinite: false,
-                speed: 300,
-                responsive: [{
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 3,
-                            infinite: false,
-                            dots: true
-                        }
-                    },
-                    {
-                        breakpoint: 600,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 2,
-                            infinite: false,
-                            dots: true
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                            infinite: false,
-                            dots: true
-                        }
-                    }
-                ]
-
-
-            });
-            //owl-carousal 2
-            $('.owl-carousel2').slick({
-                lazyLoad: 'ondemand',
-                infinite: true,
-                slidesToShow: 4,
-                slidesToScroll: 4,
-                arrows: true,
-                dots: true,
-                infinite: false,
-
-                responsive: [{
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 4,
-                            slidesToScroll: 4,
-                            infinite: false,
-                            dots: true
-                        }
-                    },
-                    {
-                        breakpoint: 600,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 3,
-                            infinite: false,
-                            dots: true
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                            infinite: false,
-                            dots: true
-                        }
-                    }
-                ]
-            });
-        });
-    </script>
 
 </body>
 
